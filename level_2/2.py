@@ -1,7 +1,7 @@
-from constants import ___
+from typing import Iterable
 
 
-def is_recovery_code_correct(code: ___, user_codes: ___) -> ___:
+def is_recovery_code_correct(code: str, user_codes: Iterable[str]) -> bool:
     pass
 
 

@@ -1,7 +1,10 @@
-from constants import ___
+from typing import Iterable, Mapping
 
 
-def calculate_total_spent_for_users(users_ids: ___, users_ids_to_users_map: ___) -> ___:
+def calculate_total_spent_for_users(
+    users_ids: Iterable[int],
+    users_ids_to_users_map: Mapping[int, tuple[str, int, Iterable[int]]]
+) -> int:
     pass
 
 
