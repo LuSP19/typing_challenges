@@ -1,7 +1,7 @@
-from constants import ___
+from typing import Iterable
 
 
-def get_avg_currency_rate(rates_history: ___) -> ___:
+def get_avg_currency_rate(rates_history: Iterable[float]) -> float:
     pass
 
 

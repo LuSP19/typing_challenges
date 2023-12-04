@@ -1,9 +1,10 @@
+from typing import Iterable
 import datetime
 
-from constants import ___
 
-
-def parse_receipt(raw_receipt: ___) -> ___:
+def parse_receipt(
+    raw_receipt: str
+) -> tuple[int, datetime.date, Iterable[tuple[str, int, float]]]:
     pass
 
 

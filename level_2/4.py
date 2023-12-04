@@ -1,7 +1,7 @@
-from constants import ___
+from typing import Iterable
 
 
-def ban_users(users_ids: ___) -> ___:
+def ban_users(users_ids: Iterable[int]) -> int:
     pass
 
 
